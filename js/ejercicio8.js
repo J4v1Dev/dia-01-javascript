@@ -8,6 +8,8 @@
 
 var respuestaUsuario = prompt ("Escribe sí o no");
 
-if (respuestaUsuario != "sí" || respuestaUsuario != "no"){
-    alert ("No lo has escrito tal cual te lo he dicho");
+if (respuestaUsuario === "sí" || respuestaUsuario === "no"){
+    alert ("Lo has escrito bien");
+} else {
+    alert ("No lo has escrito bien");
 }
