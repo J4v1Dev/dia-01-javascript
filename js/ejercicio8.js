@@ -6,3 +6,8 @@
 
 // Escribe tu código aquí debajo:
 
+var respuestaUsuario = prompt ("Escribe sí o no");
+
+if (respuestaUsuario != "sí" || respuestaUsuario != "no"){
+    alert ("No lo has escrito tal cual te lo he dicho");
+}
